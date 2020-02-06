@@ -9,8 +9,9 @@ set -ux
 command -v brew >/dev/null || { echo "Installation requires Homebrew; see https://brew.sh to install it."; exit 1; }
 command -v mysides >/dev/null || brew cask install mysides
 
-cp -f ./run.sh /usr/local/bin/com.dzombak.remove-keybase-finder-favorite
-chmod +x /usr/local/bin/com.dzombak.remove-keybase-finder-favorite
+mkdir -p /usr/local/opt/com.dzombak.remove-keybase-finder-favorite/bin
+cp -f ./run.sh /usr/local/opt/com.dzombak.remove-keybase-finder-favorite/bin/remove-keybase-finder-favorite
+chmod +x /usr/local/opt/com.dzombak.remove-keybase-finder-favorite/bin/remove-keybase-finder-favorite
 
 mkdir -p "$HOME/Library/LaunchAgents/"
 

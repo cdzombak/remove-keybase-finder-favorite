@@ -9,7 +9,7 @@
 	<key>ProcessType</key>
 	<string>Background</string>
 	<key>Program</key>
-	<string>/usr/local/bin/com.dzombak.remove-keybase-finder-favorite</string>
+	<string>/usr/local/opt/com.dzombak.remove-keybase-finder-favorite/bin/remove-keybase-finder-favorite</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
